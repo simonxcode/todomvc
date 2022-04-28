@@ -14,7 +14,7 @@
 Cypress.Commands.add('createDefaultTodos', function () {
 
   let TODO_ITEM_ONE = 'learn cypress'
-  let TODO_ITEM_TWO = 'feed the cat'
+  let TODO_ITEM_TWO = 'go for a jog'
   let TODO_ITEM_THREE = 'book a doctors appointment'
 
   // begin the command here, which by will display
