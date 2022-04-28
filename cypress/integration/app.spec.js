@@ -95,7 +95,7 @@ describe('TodoMVC', function () {
       cy.get('.todo-list li')
       .eq(0)
       .find('label')
-      .should('contain', TODO_ITEM_ONE)
+      .should('contain', TODO_ITEM_SEVEN)
 
       // create 2nd todo
       cy.get('.new-todo')
